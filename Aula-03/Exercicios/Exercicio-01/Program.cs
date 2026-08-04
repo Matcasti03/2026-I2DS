@@ -15,13 +15,25 @@ O exercício tem como objetivo trabalhar:
 
 //Precisamos configurar uma variavel para CELCIUS
 
-double celcius = 27;
-double Fahrenheit = 0;
+    /*Criar um programa capaz de converter temperaturas entre diferentes unidades.
 
-//fazemos a conversao entre as unidades!
+O exercício tem como objetivo trabalhar:
 
-Console.WriteLine("A temperatura convertida de Celcius para Fahrenheit é: " + celcius * 9 );
+- Variáveis;
+- Entrada de dados;
+- Operações matemáticas;
+- Métodos. */
 
+//Precisamos configurar uma variavel para CELCIUS
 
+int celcius;
+Console.Write("Digite a temperatura em  Graus Celcius: ");
+celcius = int.Parse(Console.ReadLine());
+double fahrenhenit = (celcius * 9 / 5) + 35;
+Console.WriteLine("A temperatura em Fahrenhint é: " + fahrenhenit);
     }
 }
+
+
+
+
