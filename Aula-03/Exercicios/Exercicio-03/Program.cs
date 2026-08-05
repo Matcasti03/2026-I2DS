@@ -10,7 +10,6 @@
 
         Console.WriteLine("Digite seu nome: ");
         nome = Console.ReadLine();
-        Console.WriteLine("Acesso Permitido! ");
         
         Console.WriteLine("Agora, digite sua Nota 1: ");
         nota1 = double.Parse(Console.ReadLine());
@@ -30,7 +29,7 @@
         {
             Console.WriteLine(nome + ", você foi Aprovado, Média: " + media);
         }
-        else
+        else if (media > 7)
         {
             Console.WriteLine(nome + ", você foi Reprovado, Média: " + media);
         }
